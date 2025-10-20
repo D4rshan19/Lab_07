@@ -15,10 +15,12 @@ public class Task3 {
                 System.out.println(d1);
                 System.out.println(d2);
                 System.out.println(d3);
+                sum = d1+ d2 + d3;
             }
         } while (d1 == d2 || d2 == d3);
-        sum = d1+ d2 + d3;
 
-        System.out.printf();
+        System.out.printf("%-5s%-5s%-5s%-5s%-5s", "Roll", "Die1", "Die2", "Die3", "Sum");
+        System.out.printf("\n%-1s%1s%1s%1s%1s%1s%1s%1s%1s%1s%1s%1s%1s%1s%1s%1s%1s%1s%1s%1s%1s%1s%1s", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "");
+        System.out.printf("\n%-5s%-5s%-5s%-5s%-5s%-5s", d1, d2, d3, sum);
     }
 }
